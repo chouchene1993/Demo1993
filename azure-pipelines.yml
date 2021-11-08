@@ -30,7 +30,7 @@ steps:
     provider: 'azurerm'
     command: 'plan'
     commandOptions: '-out=tfplan'
-    environmentServiceNameAzureRM: 'Azure pour les étudiants(1)(0ec45264-05e6-4136-b2b7-d9291bb2aeeb)'
+    environmentServiceNameAzureRM: 'Azure pour les étudiants(0ec45264-05e6-4136-b2b7-d9291bb2aeeb)'
 
 - task: PowerShell@2
   displayName: detect any terraform change
@@ -57,7 +57,7 @@ steps:
     provider: 'azurerm'
     command: 'apply'
     commandOptions: 'tfplan'
-    environmentServiceNameAzureRM: 'Azure pour les étudiants(2)(0ec45264-05e6-4136-b2b7-d9291bb2aeeb)'
+    environmentServiceNameAzureRM: 'Azure pour les étudiants(0ec45264-05e6-4136-b2b7-d9291bb2aeeb)'
 
 
 
