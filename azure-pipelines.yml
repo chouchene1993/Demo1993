@@ -15,7 +15,7 @@ variables:
 steps:
 - task: TerraformInstaller@0
   inputs:
-    terraformVersion: '0.14.9'
+    terraformVersion: 'latest'
 - task: TerraformTaskV2@2
   inputs:
     provider: 'azurerm'
