@@ -51,6 +51,7 @@ steps:
       {
         Write-Host "There is no change detected in Terraform tfplan file"
       }
+      
 - task: TerraformTaskV2@2
   condition: eq(variables.anyTfChanges, true)
   inputs:
