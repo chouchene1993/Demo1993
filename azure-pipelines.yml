@@ -6,10 +6,10 @@ pool:
 
 variables:
   subscription: Azure pour les étudiants(0ec45264-05e6-4136-b2b7-d9291bb2aeeb)
-  resourceGroup: Terraform-RG
-  storageAccount: tfstatestorage1993
-  container: tfstate
-  tfstateFile: dev.terraform.tfstate
+  resourceGroup: rg-terraform-state-chouchene1993
+  storageAccount: sttfstatechouchene1993
+  container: tfstatechouchene1993
+  tfstateFile: terraform.tfstatechouchene1993
   anyTfChanges: false
 
 steps:
